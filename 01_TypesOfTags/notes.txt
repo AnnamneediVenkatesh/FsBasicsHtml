@@ -1,0 +1,5 @@
+Html was introduced by Tim berners lee
+HTML -- Hypertext markup Language
+html is the parent tag 
+It is having two childrens they are
+head tag and body tag
