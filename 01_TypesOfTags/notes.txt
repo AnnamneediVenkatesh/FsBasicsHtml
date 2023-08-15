@@ -3,3 +3,6 @@ HTML -- Hypertext markup Language
 html is the parent tag 
 It is having two childrens they are
 head tag and body tag
+
+Bi directional tags are having two attributes 
+They are ltr and rtl
