@@ -1,0 +1,24 @@
+.c1{
+    border: 2px solid crimson;
+    padding: 5px;
+    margin: 5px;
+    background-color: blueviolet;
+}
+.c2{
+    border: 2px solid aqua;
+    padding: 5px;
+    margin: 5px;
+    background-color: crimson;
+}
+.c3{
+    border: 2px solid coral;
+    padding: 5px;
+    margin: 5px;
+    background-color: aqua;
+}
+.c4{
+    border: 2px solid lime;
+    padding: 5px;
+    margin: 5px;
+    background-color: greenyellow;
+}
