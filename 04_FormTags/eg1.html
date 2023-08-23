@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Fill The Form</legend>
+        <form action="./submit.html" method="post" autocomplete="off">
+            <label for="fname">User Name</label>
+            <input type="text" name="fname" id="fname" placeholder="Enter user name" required> <br><br>
+            <label for="lname">Password</label>
+            <input type="password" name="lname" id="lname" placeholder="Enter Password" required><br><br>
+            <label for="email">e-mail</label>
+            <input type="email" name="email" id="email" placeholder="Enter e-mail" required><br><br>
+            <label for="no">ContactNumber</label>
+            <input type="number" name="ContactNumber" id="no" placeholder="Enter ContactNumber" required> <br>
+            <p><b>Gender</b></p>
+            <label for="m">Male</label>
+            <input type="radio" name="gender" id="m" required>
+            <label for="f">Female</label>
+            <input type="radio" name="gender" id="f">
+            <label for="o">Others</label>
+            <input type="radio" name="gender" id="o" required> <br><br>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="dob" id="dob">
+            <p><b>Skills</b></p>
+            <label for="python">Python</label>
+            <input type="checkbox" name="Java" id="python">
+            <label for="java">Java</label>
+            <input type="checkbox" name="Python" id="java">
+            <label for="">C</label>
+            <input type="checkbox" name="c" id="python">
+            <label for="java">C++</label>
+            <input type="checkbox" name="c++" id="python">
+
+            <br><br>
+            <input type="reset" >
+            <input type="submit" value="Register">
+        </form>
+    </fieldset>
+</body>
+
+</html>
