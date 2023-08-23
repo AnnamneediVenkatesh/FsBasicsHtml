@@ -12,6 +12,9 @@
             padding: 10px;
             margin: 10px;
             border-spacing: 10px;
+            /* border-collapse: collapse;
+            border-collapse: separate; */
+            /* border-collapse: inherit; */
         }
         th{
             border: 2px solid red;
@@ -24,10 +27,20 @@
         }
         td, th{
             height: 50px;
-            text-align: center;
+            vertical-align: top;
             font-size: xx-large;
             color: red;
         }
+        td, th{
+            text-align: center;
+        }
+        caption{
+            caption-side: bottom;
+        }
+        /* td{
+            empty-cells: hide;
+            empty-cells: show;
+        } */
     </style>
 </head>
 
@@ -52,7 +65,7 @@
         <tr>
             <td>3</td>
             <td>redmi</td>
-            <td>20000</td>
+            <td></td>
         </tr></tbody>
         <tfoot><tr>
             <td colspan="2" class="c1">total</td>
