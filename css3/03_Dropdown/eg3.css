@@ -1,0 +1,33 @@
+.button{
+    border:none;
+    color:white;
+    background-color: blue;
+    padding: 16px 39px;
+    border: 1px solid blue;
+}
+.content a{
+    display: block;
+  
+    color: black;
+    padding: 22px 32.5px;
+   
+    background-color: white;
+    text-decoration: none;
+}
+.container:hover .content{
+    display: block;
+}
+.content{
+    display: none;
+    position: absolute;a
+   
+}
+
+section, .main{
+    display: flex;
+    margin: 2px;
+    flex: 2;
+}
+section{
+    background-color: blue;
+}
